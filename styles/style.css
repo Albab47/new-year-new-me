@@ -128,3 +128,30 @@ a {
     color: #16D887;
 }
 
+#plan {
+    margin-top: 8rem
+}
+
+#plan .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3.3rem;
+}
+
+#plan .section-title {
+    text-align: center;
+}
+
+#plan .plan-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+#plan .plan-items .item {
+    text-align: center;
+}
+
+#plan .plan-items .item img {
+    max-width: 5.8rem;
+}
