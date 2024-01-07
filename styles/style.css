@@ -166,8 +166,7 @@ a {
 }
 
 #contact .container {
-    background-image: url('../images/watch.png');
-    background-image: url('../images/gradient1.png');
+    background-image: url('../images/gradient1.png'), url('../images/watch.png');
     height: 18.75rem;
     padding: 3.6rem 38rem 3.6rem 4rem;
     margin-bottom: 8.1rem;
