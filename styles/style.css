@@ -27,8 +27,10 @@ a {
 
 .btn {
     border: none;
-    padding: 1.2rem 1.5rem;
+    padding: 1.25rem 2.25rem;
     border-radius: 0.4rem;
+    color: #005FAC;
+    background-color: #fff;
 }
 
 .container {
@@ -103,6 +105,7 @@ a {
 #failures .container {
     justify-content: space-around;
     align-items: center;
+    gap: 1.5rem
 }
 
 #failures .failures-img {
@@ -128,11 +131,12 @@ a {
     color: #16D887;
 }
 
+/* My Plan */
 #plan {
     margin-top: 8rem
 }
 
-#plan .container{
+#plan .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -154,4 +158,25 @@ a {
 
 #plan .plan-items .item img {
     max-width: 5.8rem;
+}
+
+/* Contact */
+#contact {
+    margin-top: 8rem;
+}
+
+#contact .container {
+    background-image: url('../images/watch.png');
+    background-image: url('../images/gradient1.png');
+    height: 18.75rem;
+    padding: 3.6rem 38rem 3.6rem 4rem;
+    margin-bottom: 8.1rem;
+}
+
+#contact .section-title {
+    color: #FFF;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 1.2rem;
 }
