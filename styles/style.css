@@ -13,7 +13,7 @@ body {
 }
 
 img {
-    /* width: 100%; */
+    width: 100%;
 }
 
 ul {
@@ -31,6 +31,31 @@ a {
     border-radius: 0.4rem;
 }
 
+.container {
+    width: 70%;
+    max-width: 71rem;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-title {
+    color: #151414;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section-description {
+    color: #444343;
+    font-weight: 400;
+    line-height: 1.625rem;
+    /* 162.5% */
+}
+
 #header {
     background-image: url('../images/banner/banner3.png');
     background-repeat: no-repeat;
@@ -38,6 +63,7 @@ a {
     background-size: 100% 100%;
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 8rem;
 }
 
 .header-container {
@@ -72,3 +98,33 @@ a {
     font-size: 1.25rem;
     font-weight: 600;
 }
+
+/* Failures */
+#failures .container {
+    justify-content: space-around;
+    align-items: center;
+}
+
+#failures .failures-img {
+    border-radius: 45%;
+    background: #f1f1f1;
+    width: 25rem;
+}
+
+#failures .failures-text {
+    max-width: 26rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+#failures .failures-text .checkmark {
+    margin-top: 1rem;
+}
+
+#failures .failures-text .checkmark i {
+    margin-right: 0.5rem;
+    color: #16D887;
+}
+
